@@ -32,7 +32,7 @@ public class Board extends JPanel implements ActionListener {
 
     Board(){
         this.addKeyListener(new TAdapter());
-        this.setBackground(Color.GRAY);
+        this.setBackground(Color.WHITE);
         //this.setPreferredSize(new Dimension(400,400));
         this.setFocusable(true);
 
